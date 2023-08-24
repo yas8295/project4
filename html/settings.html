@@ -1,0 +1,240 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/settings.css">
+    <link rel="stylesheet" href="../css/all.min.css">
+    <title>settings</title>
+</head>
+
+<body>
+    <div class="page">
+        <aside>
+            <div class="side-header">
+                <h3>Elzero</h3>
+            </div>
+            <div class="side-links">
+                <a href="../index.html"><i class="fa-solid fa-chart-bar"></i><span>Dashboard</span></a>
+                <a class="active" href="settings.html"><i class="fa-solid fa-gear"></i><span>Settings</span></a>
+                <a href="profile.html"><i class="fa-regular fa-user"></i><span>Profile</span></a>
+                <a href="porject.html"><i class="fa-solid fa-bezier-curve"></i><span>Projects</span></a>
+                <a href="course.html"><i class="fa-solid fa-user-graduate"></i><span>Courses</span></a>
+                <a href="friends.html"><i class="fa-solid fa-user-group"></i><span>Friends</span></a>
+                <a href="files.html"><i class="fa-regular fa-file"></i><span>Files</span></a>
+                <a href="plan.html"><i class="fa-regular fa-calendar-check"></i><span>Plans</span></a>
+            </div>
+        </aside>
+        <div class="content">
+            <header>
+                <form action="">
+                    <i class="fa-solid fa-magnifying-glass"></i>
+                    <input type="search" name="" id="" placeholder="type a keyword">
+                </form>
+                <div class="header-icon">
+                    <i class="fa-regular fa-bell"></i>
+                    <img src="../css/Dashboard_files/avatar.png" alt="">
+                </div>
+            </header>
+            <div class="main-head">
+                <h1>Settings</h1>
+            </div>
+            <div class="settings">
+                <div class="settings-box">
+                    <div class="settings-box-header">
+                        <h2>Site Control
+                        </h2>
+                        <p>Control The Website If There Is Maintenance</p>
+                    </div>
+                    <div class="site-control">
+                        <div class="website-control">
+                            <div class="website-control-text">
+                                <h4>Website Control</h4>
+                                <p>Open/Close Website And Type The Reason</p>
+                            </div>
+                            <label>
+                                <input class="checkbox" type="checkbox">
+                                <div class="toggle"></div>
+                            </label>
+                        </div>
+                        <textarea name="" id="" placeholder="Close Message Content"
+                            style="width: 100%; resize: none; border-radius: 10px; border: 1px solid gainsboro ; height: 150px; padding: 10px; margin-top: 30px;"></textarea>
+                    </div>
+                </div>
+                <div class="settings-box">
+                    <div class="settings-box-header">
+                        <h2>General Info
+                        </h2>
+                        <p>General Information About Your Account</p>
+                    </div>
+                    <div class="general-info">
+                        <form action="">
+                            <label for="">
+                                First Name
+                                <input type="text">
+                            </label>
+                            <label for="">
+                                Last Name
+                                <input type="text">
+                            </label>
+                            <label for="">
+                                E-mail
+                                <input type="email" disabled>
+                                <p>change</p>
+                            </label>
+                        </form>
+                    </div>
+                </div>
+                <div class="settings-box">
+                    <div class="settings-box-header">
+                        <h2>Security Info
+                        </h2>
+                        <p>Security Information About Your Account
+                        </p>
+                    </div>
+                    <div class="security-info">
+                        <div class="security-box">
+                            <div class="security-text">
+                                <h4>Password
+                                </h4>
+                                <p>Last Change On 25/10/2021
+                                </p>
+                            </div>
+                            <button style="background-color: rgb(3, 91, 255); color: white;">Change</button>
+                        </div>
+                        <div class="security-box">
+                            <div class="security-text">
+                                <h4>Two-Factor Authentication
+                                </h4>
+                                <p>Enable/Disable The Feature
+                                </p>
+                            </div>
+                            <label>
+                                <input class="checkbox" type="checkbox" checked>
+                                <div class="toggle"></div>
+                            </label>
+                        </div>
+                        <div class="security-box">
+                            <div class="security-text">
+                                <h4>Devices
+                                </h4>
+                                <p>Check The Login Devices List
+                                </p>
+                            </div>
+                            <button style="background-color: rgb(214, 214, 214); color: rgb(0, 0, 0);">Devices</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="settings-box">
+                    <div class="settings-box-header">
+                        <h2>Social Info
+                        </h2>
+                        <p>Social Media Information
+                        </p>
+                    </div>
+                    <div class="social-info">
+                        <div class="social-box">
+                            <i class="fa-brands fa-twitter"></i>
+                            <input type="text" name="" id="" placeholder="Twitter Username">
+                        </div>
+                        <div class="social-box">
+                            <i class="fa-brands fa-facebook-f"></i>
+                            <input type="text" name="" id="" placeholder="Facebook Username">
+                        </div>
+                        <div class="social-box">
+                            <i class="fa-brands fa-linkedin"></i> <input type="text" name="" id=""
+                                placeholder="Linkedin Username">
+                        </div>
+                        <div class="social-box">
+                            <i class="fa-brands fa-youtube"></i> <input type="text" name="" id=""
+                                placeholder="Youtube Username">
+                        </div>
+                    </div>
+                </div>
+                <div class="settings-box">
+                    <div class="settings-box-header">
+                        <h2>Widgets Control
+                        </h2>
+                        <p>Show/Hide Widgets
+                        </p>
+                    </div>
+                    <div class="widget">
+                        <div class="widget-box">
+                            <input class="checkbox" type="checkbox" name="" id="one" checked>
+                            <label for="one">Quick Draft</label>
+                        </div>
+                        <div class="widget-box">
+                            <input class="checkbox" type="checkbox" name="" id="two">
+                            <label for="two">Yearly Targets</label>
+                        </div>
+                        <div class="widget-box">
+                            <input class="checkbox" type="checkbox" name="" id="four" checked>
+                            <label for="four">Latest News</label>
+                        </div>
+                        <div class="widget-box">
+                            <input class="checkbox" type="checkbox" name="" id="three">
+                            <label for="three">Tickets Statistics
+                            </label>
+                        </div>
+                        <div class="widget-box">
+                            <input class="checkbox" type="checkbox" name="" id="five">
+                            <label for="five">Latest Tasks</label>
+                        </div>
+                        <div class="widget-box">
+                            <input class="checkbox" type="checkbox" name="" id="six" checked>
+                            <label for="six">Top Search Items</label>
+                        </div>
+                    </div>
+                </div>
+                <div class="settings-box">
+                    <div class="settings-box-header">
+                        <h2>Backup Manager
+                        </h2>
+                        <p>Control Backup Time And Location
+                        </p>
+                    </div>
+                    <div class="backup">
+                        <div class="backup-box">
+                            <input class="checkbox" type="radio" name="day" id="bone">
+                            <label for="bone">Daily</label>
+                        </div>
+                        <div class="backup-box">
+                            <input class="checkbox" type="radio" name="day" id="btwo" checked>
+                            <label for="btwo">Weekly</label>
+                        </div>
+                        <div class="backup-box">
+                            <input class="checkbox" type="radio" name="day" id="bthree">
+                            <label for="bthree">Monthly</label>
+                        </div>
+                        <div class="backup-box-shape">
+                            <input class="checkbox" type="radio" name="name" id="name1">
+                            <div class="check">
+                                <label for="name1">
+                                    <i class="fa-solid fa-hard-drive"></i>
+                                    Megaman
+                                </label>
+                            </div>
+                            <input class="checkbox" type="radio" name="name" id="name2" checked>
+                            <div class="check">
+                                <label for="name2">
+                                    <i class="fa-solid fa-hard-drive"></i>
+                                    Zero
+                                </label>
+                            </div>
+                            <input class="checkbox" type="radio" name="name" id="name3">
+                            <div class="check">
+                                <label for="name3">
+                                    <i class="fa-solid fa-hard-drive"></i>
+                                    Sigma
+                                </label>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
